@@ -9,6 +9,7 @@ These skills conform to the [Agent Skills standard](https://agentskills.io) and 
 ### NetOps Playbook Automation (`netops-playbook-automation`)
 Transforms human-readable network troubleshooting playbooks into robust, deterministic Python workflows. It includes a built-in PII/PHI & Secret scanner to ensure no customer IPs, credentials, or proprietary data are hardcoded into generated scripts.
 
+```
 skills/
 ├── README.md
 └── netops-playbook-automation/
@@ -23,6 +24,7 @@ skills/
         ├── t4_protocol_deep_inspection.py
         ├── t5_multi_source_correlation.py
         └── t6_prerequisite_checklist.py
+```
 
 ## Installation
 
